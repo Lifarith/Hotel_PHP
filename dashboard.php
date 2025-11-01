@@ -45,7 +45,7 @@
 				<div class="col-xs-6 col-md-3 col-lg-3 no-padding">
 					<div class="panel panel-red panel-widget ">
 						<div class="row no-padding"><em class="fa fa-xl fa-comments color-red"></em>
-							<div class="large"><?php include 'counters/complaints-count.php'?></div>
+							<div class="large"><?php include 'counters/customer-count.php'?></div>
 							<div class="text-muted">Complaints</div>
 						</div>
 					</div>

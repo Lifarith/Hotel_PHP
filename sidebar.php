@@ -25,6 +25,19 @@
                     Inicio
                 </a>
             </li>
+            <?php }
+        if (isset($_GET['staff_mang'])){ ?>
+            <li class="active">
+                <a href="index.php?staff_mang"><em class="fa fa-user">&nbsp;</em>
+                    Usuarios
+                </a>
+            </li>
+        <?php } else{?>
+            <li>
+                <a href="index.php?staff_mang"><em class="fa fa-user">&nbsp;</em>
+                    Usuarios
+                </a>
+            </li>
         <?php }
         if (isset($_GET['reservation'])){ ?>
             <li class="active">
@@ -55,26 +68,39 @@
         if (isset($_GET['staff_mang'])){ ?>
             <li class="active">
                 <a href="index.php?staff_mang"><em class="fa fa-users">&nbsp;</em>
-                    Personal
+                    Huespedes
                 </a>
             </li>
         <?php } else{?>
             <li>
                 <a href="index.php?staff_mang"><em class="fa fa-users">&nbsp;</em>
-                    Personal
+                    Huespedes
+                </a>
+            </li>
+            <?php }
+        if (isset($_GET['staff_mang'])){ ?>
+            <li class="active">
+                <a href="index.php?staff_mang"><em class="fa fa-users">&nbsp;</em>
+                    Servicios
+                </a>
+            </li>
+        <?php } else{?>
+            <li>
+                <a href="index.php?staff_mang"><em class="fa fa-users">&nbsp;</em>
+                    Servicios
                 </a>
             </li>
         <?php }
         if (isset($_GET['complain'])){ ?>
             <li class="active">
                 <a href="index.php?complain"><em class="fa fa-comments">&nbsp;</em>
-                    Manage Complaints
+                    Notas
                 </a>
             </li>
         <?php } else{?>
             <li>
                 <a href="index.php?complain"><em class="fa fa-comments">&nbsp;</em>
-                    Manage Complaints
+                    Notas
                 </a>
             </li>
         <?php }
@@ -93,7 +119,9 @@
                 Estadisticas
             </a>
         </li>
+        
 <?php }?>
+
 
         
     </ul>
