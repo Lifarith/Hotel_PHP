@@ -290,15 +290,15 @@
                                 
                                 <tbody>
                                 <tr>
-                                    <td><b>Customer Name</b></td>
+                                    <td><b>Nombre</b></td>
                                     <td id="getCustomerName"></td>
                                 </tr>
                                 <tr>
-                                    <td><b>Room Type</b></td>
+                                    <td><b>Tipo</b></td>
                                     <td id="getRoomType"></td>
                                 </tr>
                                 <tr>
-                                    <td><b>Room Number</b></td>
+                                    <td><b>Numero</b></td>
                                     <td id="getRoomNo"></td>
                                 </tr>
                                 <tr>
@@ -310,7 +310,7 @@
                                     <td id="getCheckOut"></td>
                                 </tr>
                                 <tr>
-                                    <td><b>Total Price</b></td>
+                                    <td><b>Precio</b></td>
                                     <td id="getTotalPrice"></td>
                                 </tr>
                                 </tbody>
@@ -318,12 +318,12 @@
                             <form role="form" id="advancePayment">
                                 <div class="payment-response"></div>
                                 <div class="form-group col-lg-12">
-                                    <label>Advance Payment</label>
+                                    <label>Avances</label>
                                     <input type="number" class="form-control" id="advance_payment"
-                                           placeholder="Please Enter Amounts Here..">
+                                           placeholder="Ingrese valor del pago">
                                 </div>
                                 <input type="hidden" id="getBookingID" value="">
-                                <button type="submit" class="btn btn-primary pull-right">Payment & Check In</button>
+                                <button type="submit" class="btn btn-primary pull-right">Pago y Check In</button>
                             </form>
                         </div>
                     </div>
@@ -350,15 +350,15 @@
                                 
                                 <tbody>
                                 <tr>
-                                    <td><b>Customer Name</b></td>
+                                    <td><b>Nombre</b></td>
                                     <td id="getCustomerName_n"></td>
                                 </tr>
                                 <tr>
-                                    <td><b>Room Type</b></td>
+                                    <td><b>Typ0</b></td>
                                     <td id="getRoomType_n"></td>
                                 </tr>
                                 <tr>
-                                    <td><b>Room Number</b></td>
+                                    <td><b>Numeror</b></td>
                                     <td id="getRoomNo_n"></td>
                                 </tr>
                                 <tr>
@@ -370,11 +370,11 @@
                                     <td id="getCheckOut_n"></td>
                                 </tr>
                                 <tr>
-                                    <td><b>Total Amount</b></td>
+                                    <td><b>Pago total</b></td>
                                     <td id="getTotalPrice_n"></td>
                                 </tr>
                                 <tr>
-                                    <td><b>Remaining Amount</b></td>
+                                    <td><b>Pago restante</b></td>
                                     <td id="getRemainingPrice_n"></td>
                                 </tr>
                                 </tbody>
@@ -382,14 +382,14 @@
                             <form role="form" id="checkOutRoom_n" data-toggle="validator">
                                 <div class="checkout-response"></div>
                                 <div class="form-group col-lg-12">
-                                    <label><b>Remaining Payment</b></label>
+                                    <label><b>Pago restante</b></label>
                                     <input type="text" class="form-control" id="remaining_amount"
-                                           placeholder="Remaining Payment" required
-                                           data-error="Please Enter Remaining Amount">
+                                           placeholder="Pago restante" required
+                                           data-error="Ingrese el pago restante">
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <input type="hidden" id="getBookingId_n" value="">
-                                <button type="submit" class="btn btn-primary pull-right">Proceed Checkout</button>
+                                <button type="submit" class="btn btn-primary pull-right">Hacer Checkout</button>
                             </form>
                         </div>
                     </div>
@@ -402,7 +402,7 @@
 
     <div class="row">
         <div class="col-sm-12">
-        <p class="back-link">Developed By Prem Chand Saini</p>
+        <p class="back-link">Desarrollado por Lifarith Ortega M.</p>
         </div>
     </div>
 

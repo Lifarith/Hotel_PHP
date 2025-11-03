@@ -28,13 +28,13 @@
             <?php }
         if (isset($_GET['staff_mang'])){ ?>
             <li class="active">
-                <a href="index.php?staff_mang"><em class="fa fa-user">&nbsp;</em>
+                <a href="user.php?user"><em class="fa fa-user">&nbsp;</em>
                     Usuarios
                 </a>
             </li>
         <?php } else{?>
             <li>
-                <a href="index.php?staff_mang"><em class="fa fa-user">&nbsp;</em>
+                <a href="user.php?user"><em class="fa fa-user">&nbsp;</em>
                     Usuarios
                 </a>
             </li>
@@ -67,26 +67,26 @@
         <?php }
         if (isset($_GET['staff_mang'])){ ?>
             <li class="active">
-                <a href="index.php?staff_mang"><em class="fa fa-users">&nbsp;</em>
+                <a href="guest.php?guest"><em class="fa fa-users">&nbsp;</em>
                     Huespedes
                 </a>
             </li>
         <?php } else{?>
             <li>
-                <a href="index.php?staff_mang"><em class="fa fa-users">&nbsp;</em>
+                <a href="guest.php?guest"><em class="fa fa-users">&nbsp;</em>
                     Huespedes
                 </a>
             </li>
             <?php }
         if (isset($_GET['staff_mang'])){ ?>
             <li class="active">
-                <a href="index.php?staff_mang"><em class="fa fa-users">&nbsp;</em>
+                <a href="services.php?services"><em class="fa fa-users">&nbsp;</em>
                     Servicios
                 </a>
             </li>
         <?php } else{?>
             <li>
-                <a href="index.php?staff_mang"><em class="fa fa-users">&nbsp;</em>
+                <a href="services.php?services"><em class="fa fa-users">&nbsp;</em>
                     Servicios
                 </a>
             </li>

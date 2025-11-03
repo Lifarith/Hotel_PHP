@@ -117,6 +117,11 @@
 				</div>
 			</div><!--/.row-->
 		</div>
+		<div class="row">
+        <div class="col-sm-12">
+        <p class="back-link">Desarrollado por Lifarith Ortega M.</p>
+        </div>
+    </div>
 		
 	</div>	<!--/.main-->
 	
